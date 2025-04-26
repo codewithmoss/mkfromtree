@@ -130,7 +130,7 @@ makepkg -si
 ```
 ✅ Now you can use mktree anywhere!
 
-## 📥 Install using install.sh CURL
+## 📥 Install using `install.sh` CURL
 
 ✅ Users can install directly with:
 
@@ -139,6 +139,19 @@ curl -fsSL https://raw.githubusercontent.com/codewithmoss/mktree/main/install.sh
 ```
 
 ✅ This will download and install `mktree` automatically to `/usr/local/bin/`.
+
+
+# 📜 **How it works now:**
+
+| Step | What happens |
+|:---|:---|
+| 1 | Downloads the file to a temp location you have access to. |
+| 2 | Uses `sudo` to move it to `/usr/local/bin/`. |
+| 3 | Sets executable permissions. |
+| 4 | Done! |
+
+✅ **No permission issues anymore**  
+✅ **Safer and professional**
 
 
 ---
