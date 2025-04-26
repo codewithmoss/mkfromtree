@@ -99,7 +99,7 @@ It will create the structure **inside** `~/Projects/`.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOURUSERNAME/mktree.git
+git clone https://github.com/codewithmoss/mktree.git
 cd mktree
 chmod +x mktree.sh
 ```
