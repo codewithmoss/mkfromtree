@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# mktree.sh - create folders/files from tree structure
+# mkfromtree.sh - create folders/files from tree structure
 
 # Usage:
-# mktree [target_directory] [tree_file]
+# mkfromtree [target_directory] [tree_file]
 
 # Detect arguments
 target_dir=""

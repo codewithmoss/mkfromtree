@@ -1,6 +1,6 @@
-# mktree
+# mkfromtree
 
-**mktree** is a simple Bash script that **creates a full directory and file structure** from a human-readable tree format.
+**mkfromtree** is a simple Bash script that **creates a full directory and file structure** from a human-readable tree format.
 
 ---
 
@@ -23,7 +23,7 @@
 
 
 ```bash
-mktree
+mkfromtree
 ```
 
 You will be prompted to paste the tree structure manually:
@@ -46,13 +46,13 @@ or Save and exit your EDITOR.
 #### ➤ Create from a tree text file
 
 ```bash
-mktree /path/to/tree.txt
+mkfromtree /path/to/tree.txt
 ```
 
 Example:
 
 ```bash
-mktree ~/Downloads/mytree.txt
+mkfromtree ~/Downloads/mytree.txt
 ```
 
 ---
@@ -60,13 +60,13 @@ mktree ~/Downloads/mytree.txt
 #### ➤ Create in a specific target directory
 
 ```bash
-mktree /target/directory/ /path/to/tree.txt
+mkfromtree /target/directory/ /path/to/tree.txt
 ```
 
 Example:
 
 ```bash
-mktree ~/Projects/ ~/Downloads/mytree.txt
+mkfromtree ~/Projects/ ~/Downloads/mytree.txt
 ```
 
 It will create the structure **inside** `~/Projects/`.
@@ -76,10 +76,10 @@ It will create the structure **inside** `~/Projects/`.
 
 | Command | Description |
 |:---|:---|
-| `mktree` | Start manual mode — paste the tree structure manually. |
-| `mktree /path/to/tree.txt` | Create structure by reading the tree from a file. |
-| `mktree /target/directory/ /path/to/tree.txt` | Create structure inside a specific target directory. |
-| `mktree /target/directory/` | Start manual mode but save the result into a specific directory. |
+| `mkfromtree` | Start manual mode — paste the tree structure manually. |
+| `mkfromtree /path/to/tree.txt` | Create structure by reading the tree from a file. |
+| `mkfromtree /target/directory/ /path/to/tree.txt` | Create structure inside a specific target directory. |
+| `mkfromtree /target/directory/` | Start manual mode but save the result into a specific directory. |
 
 
 ---
@@ -99,46 +99,46 @@ It will create the structure **inside** `~/Projects/`.
 Clone the repository:
 
 ```bash
-git clone https://github.com/codewithmoss/mktree.git
-cd mktree
-chmod +x mktree.sh
+git clone https://github.com/codewithmoss/mkfromtree.git
+cd mkfromtree
+chmod +x mkfromtree.sh
 ```
 
 Add it to your PATH:
 
 ```bash
-sudo cp mktree.sh /usr/local/bin/mktree
+sudo cp mkfromtree.sh /usr/local/bin/mkfromtree
 ```
 
-✅ Now you can use `mktree` anywhere.
+✅ Now you can use `mkfromtree` anywhere.
 
 
 ## 📥 Install from AUR (Arch Linux)
 
-You can install **mktree** easily using any AUR helper like `yay`:
+You can install **mkfromtree** easily using any AUR helper like `yay`:
 
 ```bash
-yay -S mktree
+yay -S mkfromtree
 ```
 
 Or manually clone and build:
 
 ```bash
-git clone https://aur.archlinux.org/mktree.git
-cd mktree
+git clone https://aur.archlinux.org/mkfromtree.git
+cd mkfromtree
 makepkg -si
 ```
-✅ Now you can use mktree anywhere!
+✅ Now you can use mkfromtree anywhere!
 
 ## 📥 Install using `install.sh` CURL
 
 ✅ Users can install directly with:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/codewithmoss/mktree/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/codewithmoss/mkfromtree/main/install.sh | bash
 ```
 
-✅ This will download and install `mktree` automatically to `/usr/local/bin/`.
+✅ This will download and install `mkfromtree` automatically to `/usr/local/bin/`.
 
 
 # 📜 **How it works now:**

@@ -2,19 +2,19 @@
 
 set -e
 
-echo "📥 Installing mktree..."
+echo "📥 Installing mkfromtree..."
 
 TMP_FILE=$(mktemp)
 
 # Download the script first
-curl -fsSL https://raw.githubusercontent.com/codewithmoss/mktree/main/mktree.sh -o "$TMP_FILE"
+curl -fsSL https://raw.githubusercontent.com/codewithmoss/mkfromtree/main/mkfromtree.sh -o "$TMP_FILE"
 
 # Move it to /usr/local/bin/ with sudo
-sudo mv "$TMP_FILE" /usr/local/bin/mktree
+sudo mv "$TMP_FILE" /usr/local/bin/mkfromtree
 
 # Make it executable
-sudo chmod +x /usr/local/bin/mktree
+sudo chmod +x /usr/local/bin/mkfromtree
 
-echo "✅ mktree installed successfully!"
-echo "📂 You can now run 'mktree' from anywhere."
+echo "✅ mkfromtree installed successfully!"
+echo "📂 You can now run 'mkfromtree' from anywhere."
 
