@@ -150,9 +150,6 @@ curl -fsSL https://raw.githubusercontent.com/codewithmoss/mktree/main/install.sh
 | 3 | Sets executable permissions. |
 | 4 | Done! |
 
-✅ **No permission issues anymore**  
-✅ **Safer and professional**
-
 
 ---
 
