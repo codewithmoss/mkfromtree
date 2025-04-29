@@ -17,17 +17,17 @@
 
 <p align="center">
   <img src="img/1.png" alt="Using command `mkfromtree /home/moss/Downloads/Backup` created Directories" width="600"/>
-  <br><em>Using command `mkfromtree /home/moss/Downloads/Backup` created Directories</em>
+  <br><em>Using command <code>mkfromtree /home/moss/Downloads/Backup</code> created Directories</em>
 </p>
 
 <p align="center">
   <img src="img/2.png" alt="Created `TREE.txt` file inside the root directory" width="600"/>
-  <br><em>Created `TREE.txt` file inside the root directory</em>
+  <br><em>Created <code>TREE.txt</code> file inside the root directory</em>
 </p>
 
 <p align="center">
   <img src="img/3.png" alt="`TREE.txt` file contains the same structure that we input" width="600"/>
-  <br><em>`TREE.txt` file contains the same structure that we input</em>
+  <br><em> <code>TREE.txt</code> file contains the same structure that we input</em>
 </p>
 
 ---
