@@ -1,3 +1,37 @@
+<p align="center">
+  <h1 align="center">mkfromtree</h1>
+  <p align="center">Create complete folder and file structure from a tree text file.</p>
+  
+  <p align="center">
+    <a href="LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+    </a>
+    <img src="https://img.shields.io/badge/Build-Passing-brightgreen.svg" alt="Build">
+    <img src="https://img.shields.io/badge/Platform-Linux-blue.svg" alt="Platform">
+    <img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg" alt="Bash">
+    <img src="https://img.shields.io/github/stars/codewithmoss/mkfromtree?style=social" alt="GitHub stars">
+  </p>
+</p>
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="img/1.png" alt="Using command `mkfromtree /home/moss/Downloads/Backup` created Directories" width="600"/>
+  <br><em>Using command `mkfromtree /home/moss/Downloads/Backup` created Directories</em>
+</p>
+
+<p align="center">
+  <img src="img/2.png" alt="Created `TREE.txt` file inside the root directory" width="600"/>
+  <br><em>Created `TREE.txt` file inside the root directory</em>
+</p>
+
+<p align="center">
+  <img src="img/3.png" alt="`TREE.txt` file contains the same structure that we input" width="600"/>
+  <br><em>`TREE.txt` file contains the same structure that we input</em>
+</p>
+
+---
+
 # mkfromtree
 
 **mkfromtree** is a simple Bash script that **creates a full directory and file structure** from a human-readable tree format.
